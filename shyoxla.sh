@@ -36,7 +36,7 @@ printf "'$filename' fayli hazirdir."
 printf "Commit mesaji daxil edin: "
 read commitmessage
 
-git add "$filename"
+git add .
 git commit -m "$commitmessage"
 git push origin main
 
